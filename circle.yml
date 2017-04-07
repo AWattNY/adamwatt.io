@@ -2,4 +2,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync master s3://http://adamwatt.io.s3-website-us-west-2.amazonaws.com --delete
+      - aws s3 sync https://github.com/AWattNY/adamwatt.io s3://http://adamwatt.io.s3-website-us-west-2.amazonaws.com --delete
