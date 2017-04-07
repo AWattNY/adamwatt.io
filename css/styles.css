@@ -52,22 +52,24 @@ nav a {
 
 .subSection {
   height: 20%;
-  background-color: #ccc;
+  background-color: #E1E2E1;
 }
 
 .one {
-	background-color: #33ffcc;
+	background-color: #7399C6; 
+  /*#33ffcc;*/
 }
 
 .logo {
-  width: 180px;
-  height: 100px;
+  width: 200px;
+  height: 111px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
 }
 
 .title {
   color: #fff;
-  font-size: 46px;
-
+  font-size: 40px;
+  text-shadow: 0 20px 20px rgba(0,0,0,.08);
 }
 
 .links {
@@ -79,15 +81,19 @@ nav a {
 }
 
 .fa-envelope-square {
-  color: #ccffff;
+  color: #a0877e;
 }
 
 .fa-linkedin-square {
-  color: #ccffff;
+  color: #a0877e;
 }
 
 .fa-github-square {
-  color: #ccffff;
+  color: #a0877e;
+}
+
+.fa-twitter-square {
+  color: #a0877e;
 }
 
 .link {
