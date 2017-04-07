@@ -5,4 +5,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync /home/ubuntu/adamwatt.io/.git s3://adamwatt.io --delete
+      - aws s3 sync AWattNY/adamwatt.io/master s3://adamwatt.io --delete
